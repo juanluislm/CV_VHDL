@@ -1,0 +1,15 @@
+NET "CLK"    LOC = "L15";
+NET "switches<0>"         LOC = "A10" | IOSTANDARD = LVCMOS33 ;
+NET "switches<1>"         LOC = "D14" | IOSTANDARD = LVCMOS33 ;
+NET "switches<2>"         LOC = "C14" | IOSTANDARD = LVCMOS33 ;
+NET "switches<3>"         LOC = "P15" | IOSTANDARD = LVCMOS33 ;
+
+# DVI-D interface
+NET "TMDS_out_P(0)"  LOC = "D8" | IOSTANDARD = TMDS_33 ; # Blue
+NET "TMDS_out_N(0)"  LOC = "C8" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(1)"  LOC = "C7" | IOSTANDARD = TMDS_33 ; # Red
+NET "TMDS_out_N(1)"  LOC = "A7" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(2)"  LOC = "B8" | IOSTANDARD = TMDS_33 ; # Green
+NET "TMDS_out_N(2)"  LOC = "A8" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(3)"  LOC = "B6" | IOSTANDARD = TMDS_33 ; # Clock
+NET "TMDS_out_N(3)"  LOC = "A6" | IOSTANDARD = TMDS_33 ;
